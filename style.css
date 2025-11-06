@@ -1,0 +1,86 @@
+body{
+	font-family: sans-serif;
+	color: #000;
+	line-height: 1.5rem;
+	background-color: #fff;
+}
+
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header{
+	background-color: green;
+	color: #000;
+   padding:1.5rem ;
+}
+footer{
+	background-color: black;
+	color: #000;
+    padding:1.5rem ;
+}
+logo{
+	font-size: 15px;
+	font-weight: 700;
+}
+
+nav{
+	display: flex;
+	text-decoration: none;
+
+}
+li{
+	list-style: none;
+}
+.hero{
+	background: url('recycle.JFIF') ;
+	background-position: center;
+	background-size: cover;
+	padding: 1.5rem auto;
+	height: 300px;
+	text-align: center;
+	color: #fff;
+	padding: ;
+
+}
+
+.footer-nav{
+	display: flex;
+
+}
+
+.footer-nav li{
+ margin-left: 2rem;
+
+}
+
+.header-nav{
+	display: flex;
+}
+
+
+.grid-cotainer{
+	display: flex;
+	grid-auto-columns: 3fr,100px;
+	text-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.item{
+	background-color: #fff;
+	padding: 5px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	gap: 10px;
+	text-align: center;
+
+}
